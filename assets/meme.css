@@ -220,7 +220,7 @@ body::before{
 
   /* 배경만 변경 */
   body{
-    background-color: rgb(0, 217, 255);
+    background-color: rgba(34, 222, 255, 0.12);
   }
 
   /* 원형 그라데이션(펄스) 끄고 싶으면 */
