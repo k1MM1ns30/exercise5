@@ -216,7 +216,7 @@ body::before{
 }
 
 
-@media (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape){
+@media (min-width: 1024px) and (max-width: 1366px){
 
   body{
     position: fixed;
