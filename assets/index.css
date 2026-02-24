@@ -216,7 +216,7 @@ body::before{
 }
 
 
-@media (min-width: 1024px) and (max-width: 1200px){
+@media (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape){
 
   body{
     position: fixed;
@@ -235,12 +235,14 @@ body::before{
     display: block;
   }
   .canvas img{
+    position: absolute;
     filter: drop-shadow(0 0 1em rgba(216, 255, 119, 0.833));
   }
 
-
-
-  
-  
+  /* ✅ 스크롤/포지션도 데스크탑 유지 (너 기존 값이 fixed/hidden이라면 그대로 두는 게 맞음) */
+  body{
+    position: fixed;
+    overflow: hidden;
+  }
 
 }
