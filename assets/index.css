@@ -235,7 +235,6 @@ body::before{
     display: block;
   }
   .canvas img{
-    position: absolute;
     filter: drop-shadow(0 0 1em rgba(216, 255, 119, 0.833));
   }
 
